@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2024-p1-sophie-bates"
+version = "0.1.0"
+description = ""
+authors = ["Sophie Bates <sophie.bates16@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2024_p1_sophie_bates"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
